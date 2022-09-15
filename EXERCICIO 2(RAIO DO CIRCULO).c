@@ -1,6 +1,6 @@
 #include<stdio.h>   
-#include<stdlib.h>
 #include<math.h>
+#define PI 3.14159
 
 int main (){
 
@@ -13,7 +13,7 @@ int main (){
 
 //cÃ¡lculo 
 
-area = (pow(raio,2) * 3.14 );
+area = (pow(raio,2) * PI );
 
 printf("Sua area e: \n %0.1f metros quadrados\n", area);
 }
