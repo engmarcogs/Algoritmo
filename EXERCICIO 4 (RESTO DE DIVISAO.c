@@ -4,20 +4,22 @@
 
     int main (){
 
-        int valor1, valor2, divisao, resto;
+        int n1, n2, quociente, resto;
 
         //ENTRADA DE DADOS!!!
 
-        printf("DIGITE O PRIMEIRO VALOR:\n ",valor1);
-        scanf("%i", &valor1);
+        printf("DIGITE O PRIMEIRO VALOR:  ");
+        scanf("%d", &n1);
 
-        printf("DIGITE O SEGUNDO VALOR:\n ",valor2);
-        scanf("%i", &valor2);
+        printf("DIGITE O SEGUNDO VALOR: ");
+        scanf("%d", &n2);
 
         //PROCESSAMENTO DE DADOS!!!
-        
-            divisao = (valor1 / valor2);
-                printf("RESULTADO DA DIVISAO E: \n %i\n """, divisao);
-            resto = (valor1%valor2);       
-                printf("O RESTO DA DIVISAO E: \n %i\n""",resto);
+            
+                 quociente = (n1 / n2);
+                 resto = (n1 % n2);  
+                
+                printf("O RESTO DA DIVISAO E: %d \n", resto);
+                printf("RESULTADO DA DIVISAO E: %d\n ", quociente);
+
     }
