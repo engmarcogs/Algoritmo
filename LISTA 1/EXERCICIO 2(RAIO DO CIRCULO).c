@@ -8,7 +8,7 @@ int main (){
 
     float raio, area;
 
-    printf("Digiite o raio do circulo\n");
+    printf("Digite o raio do circulo\n");
     scanf("%f",&raio);
 
 //cÃ¡lculo 
