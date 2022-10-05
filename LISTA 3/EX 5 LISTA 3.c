@@ -13,6 +13,6 @@ int main() {
         printf("Quadrado: %d\n", quadrado);
         printf("Raiz: %d", raiz);
     } else {
-        printf("Não posso calcular");
+        printf("invalido digite outro numero");
     }
 }

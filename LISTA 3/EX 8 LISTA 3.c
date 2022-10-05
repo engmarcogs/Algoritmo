@@ -27,6 +27,6 @@ int main() {
         printf("O valor final do produto e: R$%f", valFinal);
     }
     else {
-        printf("Estado nao encontrado no banco de dados");
+        printf("Estado invalido favor digitar outro estado");
     }
 }

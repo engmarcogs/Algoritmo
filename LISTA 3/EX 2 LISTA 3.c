@@ -15,6 +15,6 @@ int main () {
         printf("O segundo numero e maior que o primeiro");
     }
     else {
-        printf("Os dois numeros sao iguais");
+        printf("numeros  iguais");
     }
 }

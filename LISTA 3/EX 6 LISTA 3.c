@@ -2,7 +2,7 @@
 
 int main() {
     char sexo;
-    float altura, resultM, resultF;
+    float altura, masculino, feminino;
 
     printf("Qual seu sexo M ou F: ");
     scanf("%c", &sexo);
@@ -11,10 +11,10 @@ int main() {
     scanf("%f", &altura);
 
     if (sexo == 'M' || sexo == 'm') {
-        resultM = (72.7 * altura) - 58;
-        printf("O peso ideal masculino e %.2f", resultM);
+        masculino = (72.7 * altura) - 58;
+        printf("O peso ideal masculino e %.2f", masculino);
     } else {
-        resultF = (62.1 * altura) - 44.7;
-        printf("O peso ideal feminino e %.2f", resultF);
+        feminino= (62.1 * altura) - 44.7;
+        printf("O peso ideal feminino e %.2f", feminino);
     }
 }
