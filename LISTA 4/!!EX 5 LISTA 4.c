@@ -6,7 +6,7 @@
             printf("%d ",i);
             
         } soma = i + i;
-        printf("\n SOMA DE TODOS OS NUMEROS SAO : %d",soma);
+        printf("\n SOMA DE TODOS OS NUMEROS SA : %d",soma);
         
 
     }
