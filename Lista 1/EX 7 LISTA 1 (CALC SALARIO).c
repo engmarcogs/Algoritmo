@@ -1,3 +1,6 @@
+#include<stdio.h>
+#include<string.h>
+
 	int main(){
 		
 		char  sexo[2], matricula[8], nome[50];
