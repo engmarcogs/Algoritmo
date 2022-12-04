@@ -5,16 +5,18 @@ int main () {
 
     printf("Digite o primeiro numero: ");
     scanf("%d", &num1);
+    system("cls");
     printf("Digite o segundo numero: ");
     scanf("%d", &num2);
+    system("cls");
 
     if (num1 > num2) {
-        printf("O primeiro numero e maior que o segundo");
+        printf(" %d e maior que o %d.",num1,num2);
     }
     else if (num1 < num2) {
-        printf("O segundo numero e maior que o primeiro");
+        printf(" %d e menor que %d.",num1,num2);
     }
     else {
-        printf("Os dois numeros sao iguais");
+        printf("%d e %d sao iguais. ",num1,num2);
     }
 }

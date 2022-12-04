@@ -1,32 +1,34 @@
 #include<stdio.h>
 
 int main() {
-    int num1, num2, num3, op, cal;
+    float valorX, valorY;
 
-    printf("Digite tres numeros inteiros: ");
-    scanf("%d%d%d", &num1, &num2, &num3);
+    printf("Digite o valor de X: ");
+    scanf("%f", &valorX);
+    system("cls");
 
-    printf("Operacoes\n");
-    printf("1 - Geométrica\n");
-    printf("2 - Ponderada\n");
-    printf("3 - Harmonica\n");
-    printf("4 - Aritmetica\n");
-    printf("Digite qual operacao quer fazer: ");
-    scanf("%d", &op);
+    printf("Digite o valor de Y: ");
+    scanf("%f", &valorY);
+    system("cls");
 
-    if (op == 1) {
-        cal = num1 * num2 * num3;
-        printf("Resultado: %d", cal);
+    if (valorX > 0 && valorY > 0) {
+        printf("Quadrante 1");
+        return 0;
     }
-    else if (op == 2) {
-        cal = (num1+2) * (num2+3) * num3;
-        printf("Resultado: %d", cal);
+    else if (valorX < 0 && valorY > 0) {
+        printf("Quadrante 2");
+        return 0;
     }
-    else if (op == 3) {
-        
+    else if (valorX < 0 && valorY < 0) {
+        printf("Quadrante 3");
+        return 0;
     }
-    else if (op == 4) {
-        cal = (num1 + num2 + num3) / 3;
-        printf("Resultado: %d", cal);
+    else if (valorX > 0 && valorY < 0) {
+        printf("Quadrante 4");
+        return 0;
+    }
+    else {
+        printf("Origem");
+        return 0;
     }
 }

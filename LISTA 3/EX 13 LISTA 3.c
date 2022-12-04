@@ -1,57 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include<math.h>
 
-int main() {
-    int mes;
+int main (){
+int quadrante;
+float x , y;
 
-    printf("Digite um numero: ");
-    scanf("%d", &mes);
+printf("Digite dois numeros:");
+scanf("%f%f", &x, &y);
 
-    if (mes == 1)
-    {
-        printf("O numero %d refere ao mes de JANEIRO", mes);
-    }
-    else if (mes == 2)
-    {
-        printf("O numero %d refere ao mes de FEVEREIRO", mes);   
-    }
-    else if (mes == 3)
-    {
-        printf("O numero %d refere ao mes de MARCO", mes);   
-    }
-    else if (mes == 4)
-    {
-        printf("O numero %d refere ao mes de ABRIL", mes);   
-    }
-    else if (mes == 5)
-    {
-        printf("O numero %d refere ao mes de MAIO", mes);   
-    }
-    else if (mes == 6)
-    {
-        printf("O numero %d refere ao mes de JUNHO", mes);   
-    }
-    else if (mes == 7)
-    {
-        printf("O numero %d refere ao mes de JULHO", mes);   
-    }
-    else if (mes == 8)
-    {
-        printf("O numero %d refere ao mes de AGOSTO", mes);   
-    }
-    else if (mes == 9)
-    {
-        printf("O numero %d refere ao mes de SETEMBRO", mes);   
-    }
-    else if (mes == 10)
-    {
-        printf("O numero %d refere ao mes de OUTUBRO", mes);   
-    }
-    else if (mes == 11)
-    {
-        printf("O numero %d refere ao mes de NOVEMBRO", mes);   
-    }
-    else if (mes == 12)
-    {
-        printf("O numero %d refere ao mes de DEZEMBRO", mes);   
-    }
+printf("Assinale alguma alternativa: \n Se x for igual a 0.0 e y for igual a 0.0 : 1\n Se x for maior que 0 e y for maior que 0 : 2  \n Se x for maior que 0 e y for maior 0 : 3 \n Se x for maior que 0 e y for maior que 0 :4 \n Se x for maior que 0 e y for menor que 0 : 5\n");
+scanf("%d", &quadrante);
+
+ switch (quadrante)
+ {
+
+case 1 :printf ("Origem"); break;
+case 2 :printf("Q1"); break;
+case 3 :printf("Q2"); break;
+case 4 :printf("Q3"); break;
+case 5 :printf("Q4");break;
+}
 }

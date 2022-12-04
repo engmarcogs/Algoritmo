@@ -5,10 +5,11 @@ int main () {
 
     printf("Digite um numero: ");
     scanf("%d", &num);
+    system("cls");
 
     if (num % 2 == 0) {
-        printf("O numero e par");
+        printf(" %d e par.",num);
     } else {
-        printf("O numero e impar");
+        printf(" %d e impar",num);
     }
 }
