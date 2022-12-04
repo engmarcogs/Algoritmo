@@ -6,6 +6,6 @@ int main() {
     scanf("%d", &A);
     printf("Digite o valor de B: ");
     scanf("%d", &B);
-    X = (A + B);
+    
     printf("%d + %d = %d", A, B, (A+B));
 }

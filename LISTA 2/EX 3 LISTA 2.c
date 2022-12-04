@@ -11,19 +11,23 @@ int main (){
     
     printf("Digite dois numeros reais: ");
     scanf("%f%f", &num1, &num2);
+    fflush(stdin);
     
     printf("Digite uma letra: ");
-    scanf("%c", &letra);
+    scanf("%s", &letra);
+    fflush(stdin);
 
     printf("Digite uma string: ");
     scanf("%s", str);
+    fflush(stdin);
       
     printf("Digite 1 para verdadeiro e 0 para falso: ");
     scanf("%d", &bolean);
+    fflush(stdin);
 
     printf("Numero Inteiro: %d\n", valor);
     printf("Numeros Reais: \n %f \n %f\n", num1, num2);
-    printf("Letra: %c\n", letra);
+    printf("Letra: %s \n", letra);
     printf("String: %s\n", str);
     if (bolean == 1) {
         printf("Logico: Verdadeiro");

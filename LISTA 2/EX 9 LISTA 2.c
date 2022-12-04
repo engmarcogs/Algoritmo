@@ -1,17 +1,18 @@
 #include<stdio.h>
+#include<string.h>
 
 int main () {
     char nome[15];
-    float sal, result, vendas;
+    float salario, resultado, vendas;
 
     printf("Digite seu nome: ");
     scanf("%s", nome);
     printf("Digite seu salario fixo: ");
-    scanf("%f", &sal);
+    scanf("%f", &salario);
     printf("Total de vendas realizadas no mes (R$): ");
     scanf("%f", &vendas);
 
-    result = (vendas * 0.15) + sal;
+    resultado = (vendas * 0.15) + salario;
 
-    printf("%s voce recebera R$ %.2f", nome, result);
+    printf("%s voce recebera R$ %.2f", nome, resultado);
 }
