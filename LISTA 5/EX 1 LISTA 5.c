@@ -5,6 +5,6 @@
 
         printf("Digite o nome completo: ");
         gets(nome);
-        printf("%d",strlen(nome));
+        printf("Quantidade de caracteres digitado e: %zu", strlen(nome));
 
     }
