@@ -7,14 +7,14 @@
 
     int horas, minutos, segundos;
 
-    printf("Digite a quantidade de horas:\n");
+    printf("Digite a uantidade de horas:\n");
     scanf("%d",&horas);
 
         //Cálculo 
         minutos = ( 60 * horas );        
         segundos = ( 60 * minutos);   
         // Saida de dados.
-        printf("quantidade de minutos e:\n %0.1d minutos\n", minutos);
+        printf("Quantidade de minutos e:\n %0.1d minutos\n", minutos);
      
-       printf("quantidade de segundos e:\n %0.2d segundos\n:", segundos);
+       printf("Quantidade de segundos e:\n %0.2d segundos\n:", segundos);
     }
